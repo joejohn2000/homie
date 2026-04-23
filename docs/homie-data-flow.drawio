@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Codex" compressed="false">
+  <diagram id="v2-dfd" name="Application Data Flow">
+    <mxGraphModel dx="1071" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="df-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=28;fontStyle=1;fontColor=#111827;" value="Homie V2 - Application Data Flow Diagram" vertex="1">
+          <mxGeometry height="40" width="600" x="40" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="df-sub" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=15;fontColor=#6B7280;" value="Logical data flow across external actors, core application processes, and system data stores" vertex="1">
+          <mxGeometry height="24" width="880" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="df-user" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#111827;fontSize=17;" value="&lt;b&gt;Seeker / Host&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="70" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="df-admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#111827;fontSize=17;" value="&lt;b&gt;Operations Team&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="70" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="df-third" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#111827;fontSize=16;" value="&lt;b&gt;External Providers&lt;/b&gt;&lt;br/&gt;Identity, maps, email, SMS, push" vertex="1">
+          <mxGeometry height="100" width="220" x="1320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="df-p1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;fontColor=#111827;fontSize=15;" value="1. Account and Profile Management&lt;br/&gt;capture identity, role, preferences, verification state" vertex="1">
+          <mxGeometry height="110" width="260" x="330" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="df-p2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" value="2. Listing and Search Management&lt;br/&gt;create listings, filter inventory, retrieve candidates" vertex="1">
+          <mxGeometry height="110" width="280" x="650" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="df-p3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" value="3. Matching and Recommendation Engine&lt;br/&gt;score compatibility, record like/pass, create matches" vertex="1">
+          <mxGeometry height="110" width="280" x="980" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="df-p4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9333EA;fontColor=#111827;fontSize=15;" value="4. Messaging and Scheduling&lt;br/&gt;open conversations, exchange messages, manage viewing requests" vertex="1">
+          <mxGeometry height="110" width="300" x="450" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="df-p5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" value="5. Notification and Safety Operations&lt;br/&gt;send alerts, process reports, enforce moderation actions" vertex="1">
+          <mxGeometry height="110" width="310" x="850" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="df-p6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" value="6. Analytics and Platform Governance&lt;br/&gt;collect events, measure funnels, maintain audit trail" vertex="1">
+          <mxGeometry height="110" width="300" x="650" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="df-d1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#334155;fontColor=#111827;fontSize=15;" value="D1 User and Preference Store" vertex="1">
+          <mxGeometry height="70" width="210" x="330" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="df-d2" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#334155;fontColor=#111827;fontSize=15;" value="D2 Listing and Media Store" vertex="1">
+          <mxGeometry height="70" width="210" x="570" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="bgO6elGCsk83btvcP8OL-1" edge="1" parent="1" source="df-d3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="df-d2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bgO6elGCsk83btvcP8OL-2" edge="1" parent="1" source="df-d3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="df-d4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-d3" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#334155;fontColor=#111827;fontSize=15;" value="D3 Match and Conversation Store" vertex="1">
+          <mxGeometry height="70" width="220" x="810" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="df-d4" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#334155;fontColor=#111827;fontSize=15;" value="D4 Audit, Report, and Event Store" vertex="1">
+          <mxGeometry height="70" width="230" x="1060" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e1" edge="1" parent="1" source="df-user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" target="df-p1" value="registration data&lt;br/&gt;profile updates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e2" edge="1" parent="1" source="df-user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" target="df-p2" value="search filters&lt;br/&gt;listing submissions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e3" edge="1" parent="1" source="df-user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" target="df-p3" value="like / pass actions">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="265" />
+              <mxPoint x="615" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="df-e4" edge="1" parent="1" source="df-user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" target="df-p4" value="messages&lt;br/&gt;viewing requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e5" edge="1" parent="1" source="df-p5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="df-user" value="reports&lt;br/&gt;support cases">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="360" />
+              <mxPoint x="1010" y="288" />
+            </Array>
+            <mxPoint x="1010" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="df-e6" edge="1" parent="1" source="df-admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" target="df-p5" value="review actions&lt;br/&gt;policy decisions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e8" edge="1" parent="1" source="df-p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="df-third" value="maps / geocoding">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="90" />
+              <mxPoint x="1433" y="90" />
+              <mxPoint x="1433" y="360" />
+            </Array>
+            <mxPoint x="917.3512959962346" y="90" as="sourcePoint" />
+            <mxPoint x="1432.65" y="300.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="df-e9" edge="1" parent="1" source="df-p5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=13;" target="df-third" value="push / email / SMS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e10" edge="1" parent="1" source="df-p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#334155;strokeWidth=2;fontSize=13;" target="df-d1" value="user profile&lt;br/&gt;preference data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="495" />
+              <mxPoint x="435" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="df-e11" edge="1" parent="1" source="df-p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#334155;strokeWidth=2;fontSize=13;" target="df-d2" value="listing inventory&lt;br/&gt;media metadata">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e14" edge="1" parent="1" source="df-p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#334155;strokeWidth=2;fontSize=13;" target="df-d3" value="match state&lt;br/&gt;conversation state">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e15" edge="1" parent="1" source="df-p4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#334155;strokeWidth=2;fontSize=13;" target="df-d3" value="messages&lt;br/&gt;viewing requests">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="530" />
+              <mxPoint x="920" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="df-e16" edge="1" parent="1" source="df-p5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#334155;strokeWidth=2;fontSize=13;" target="df-d4" value="reports&lt;br/&gt;audit events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e17" edge="1" parent="1" source="df-p6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#334155;strokeWidth=2;fontSize=13;" target="df-d4" value="platform events&lt;br/&gt;funnel metrics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="df-e18" edge="1" parent="1" source="df-d3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" target="df-p6" value="match outcomes&lt;br/&gt;conversation activity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

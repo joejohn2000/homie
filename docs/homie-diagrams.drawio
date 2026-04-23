@@ -1,0 +1,366 @@
+<mxfile host="app.diagrams.net" agent="Codex" compressed="false" pages="5">
+  <diagram id="system-context" name="01 System Context">
+    <mxGraphModel dx="1483" dy="1162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sc-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=28;fontStyle=1;fontColor=#111827;" value="Homie Platform - System Context" vertex="1">
+          <mxGeometry height="40" width="460" x="40" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=15;fontColor=#6B7280;" value="Production-ready view of who interacts with Homie and the core business capabilities the platform provides" vertex="1">
+          <mxGeometry height="24" width="900" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-seeker" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0F172A;fontSize=17;" value="&lt;b&gt;Seeker&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:13px;&quot;&gt;Searches for a compatible room and roommate&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="70" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-host" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#0F172A;fontSize=17;" value="&lt;b&gt;Host&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:13px;&quot;&gt;Publishes a room and screens potential matches&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="70" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-admin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#0F172A;fontSize=17;" value="&lt;b&gt;Operations Team&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:13px;&quot;&gt;Moderation, support, trust and safety&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="70" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-platform" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#334155;fontColor=#111827;fontSize=18;spacingTop=-11;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="&lt;b&gt;Homie Platform&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:14px;&quot;&gt;Room discovery, compatibility matching, messaging, viewing coordination, and operational moderation in one managed platform.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="520" width="680" x="460" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-cap-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" value="&lt;b&gt;Identity and Profiles&lt;/b&gt;&lt;br/&gt;Accounts, preferences, trust signals" vertex="1">
+          <mxGeometry height="90" width="250" x="520" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-cap-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" value="&lt;b&gt;Listings and Media&lt;/b&gt;&lt;br/&gt;Room inventory, amenities, photos" vertex="1">
+          <mxGeometry height="90" width="250" x="830" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-cap-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" value="&lt;b&gt;Discovery and Matching&lt;/b&gt;&lt;br/&gt;Search, ranking, compatibility scoring" vertex="1">
+          <mxGeometry height="90" width="250" x="520" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-cap-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" value="&lt;b&gt;Messaging and Scheduling&lt;/b&gt;&lt;br/&gt;Conversation threads and viewing coordination" vertex="1">
+          <mxGeometry height="90" width="250" x="840" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-cap-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" value="&lt;b&gt;Notifications and Moderation&lt;/b&gt;&lt;br/&gt;Alerts, abuse review, support workflows" vertex="1">
+          <mxGeometry height="90" width="250" x="675" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-ext-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#0F172A;fontSize=16;" value="&lt;b&gt;Identity Provider&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:13px;&quot;&gt;Social login and email verification&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="1250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-ext-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#0F172A;fontSize=16;" value="&lt;b&gt;Maps / Geocoding&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:13px;&quot;&gt;Location normalization and commute context&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="1250" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-ext-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#0F172A;fontSize=16;" value="&lt;b&gt;Email / SMS / Push Provider&lt;/b&gt;&lt;br/&gt;&lt;font style=&quot;font-size:13px;&quot;&gt;Transactional notifications and reminders&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="1250" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-e1" edge="1" parent="1" source="sc-seeker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;" target="sc-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-e2" edge="1" parent="1" source="sc-host" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;" target="sc-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-e3" edge="1" parent="1" source="sc-admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;" target="sc-platform">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-e4" edge="1" parent="1" source="sc-platform" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;" target="sc-ext-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-e5" edge="1" parent="1" source="sc-platform" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;" target="sc-ext-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sc-e6" edge="1" parent="1" source="sc-platform" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;" target="sc-ext-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="platform-architecture" name="02 Platform Architecture">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pa-title" value="Homie Platform Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-subtitle" value="Reference architecture for a production deployment with clear boundaries across clients, edge services, domain services, and platform infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=15;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1040" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-clients" value="&lt;b&gt;Client Applications&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0F172A;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="230" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-client-1" value="Seeker Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-client-2" value="Host Mobile App" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-client-3" value="Web Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-client-4" value="Admin Console" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0284C7;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="520" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-edge-group" value="&lt;b&gt;Edge Layer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#0F172A;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="270" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-api-gw" value="API Gateway / BFF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9333EA;fontColor=#111827;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-auth" value="Auth and Session Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9333EA;fontColor=#111827;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-rate" value="Rate Limiting / WAF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9333EA;fontColor=#111827;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-rt" value="Realtime Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9333EA;fontColor=#111827;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-domain-group" value="&lt;b&gt;Domain Services&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#0F172A;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="520" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-1" value="Profile Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="220" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-2" value="Listing Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="970" y="220" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-3" value="Search and Recommendation Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="340" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-4" value="Matching Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="970" y="340" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-5" value="Conversation Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="490" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-6" value="Notification Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="970" y="490" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-svc-7" value="Trust and Safety Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="600" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-platform-group" value="&lt;b&gt;Data and Platform Infrastructure&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#0F172A;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="150" width="290" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-db-1" value="PostgreSQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-db-2" value="Search Index" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-db-3" value="Redis Cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-db-4" value="Object Storage / CDN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="490" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-db-5" value="Event Bus / Queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;" edge="1" parent="1" source="pa-clients" target="pa-edge-group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9333EA;strokeWidth=2;" edge="1" parent="1" source="pa-edge-group" target="pa-domain-group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pa-e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="pa-domain-group" target="pa-platform-group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="service-map" name="03 Service Responsibilities">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sr-title" value="Homie Service Responsibilities" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-subtitle" value="Professional capability map showing how production responsibilities are partitioned across services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=15;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="780" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-1" value="&lt;b&gt;Profile Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- account attributes&lt;br/&gt;- roommate preferences&lt;br/&gt;- lifestyle tags&lt;br/&gt;- trust and verification status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-2" value="&lt;b&gt;Listing Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- room inventory&lt;br/&gt;- pricing and availability&lt;br/&gt;- amenity catalog&lt;br/&gt;- image and media metadata" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-3" value="&lt;b&gt;Search and Recommendation Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- geographic filtering&lt;br/&gt;- ranking strategy&lt;br/&gt;- commute-aware sorting&lt;br/&gt;- candidate generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="710" y="160" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-4" value="&lt;b&gt;Matching Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- like / pass actions&lt;br/&gt;- compatibility scoring&lt;br/&gt;- mutual interest rules&lt;br/&gt;- match lifecycle management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="160" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-5" value="&lt;b&gt;Conversation Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- conversation threads&lt;br/&gt;- message delivery&lt;br/&gt;- unread counters&lt;br/&gt;- moderation hooks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-6" value="&lt;b&gt;Scheduling Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- viewing requests&lt;br/&gt;- availability windows&lt;br/&gt;- booking confirmations&lt;br/&gt;- reminder triggers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-7" value="&lt;b&gt;Notification Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- push delivery&lt;br/&gt;- email and SMS&lt;br/&gt;- notification templates&lt;br/&gt;- preference-aware delivery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="710" y="430" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-8" value="&lt;b&gt;Trust and Safety Service&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- reports and abuse review&lt;br/&gt;- content moderation&lt;br/&gt;- account restrictions&lt;br/&gt;- support tooling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1D4ED8;fontColor=#111827;fontSize=15;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="430" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sr-shared" value="&lt;b&gt;Shared Platform Capabilities&lt;/b&gt;&lt;br/&gt;Audit logging | metrics and tracing | policy enforcement | asynchronous event processing | data retention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#111827;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="900" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="domain-model" name="04 Domain Model">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dm-title" value="Homie Core Domain Model" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-subtitle" value="Primary entities and relationships for an actual working Homie platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=15;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="640" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-user" value="&lt;b&gt;User&lt;/b&gt;&lt;br/&gt;userId&lt;br/&gt;role&lt;br/&gt;status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-profile" value="&lt;b&gt;PreferenceProfile&lt;/b&gt;&lt;br/&gt;budgetRange&lt;br/&gt;lifestyleTags&lt;br/&gt;locationPreferences" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-listing" value="&lt;b&gt;Listing&lt;/b&gt;&lt;br/&gt;listingId&lt;br/&gt;address&lt;br/&gt;rent&lt;br/&gt;availabilityStatus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-media" value="&lt;b&gt;ListingMedia&lt;/b&gt;&lt;br/&gt;mediaId&lt;br/&gt;url&lt;br/&gt;sortOrder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-swipe" value="&lt;b&gt;SwipeAction&lt;/b&gt;&lt;br/&gt;actorId&lt;br/&gt;targetId&lt;br/&gt;decision&lt;br/&gt;createdAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="170" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-match" value="&lt;b&gt;Match&lt;/b&gt;&lt;br/&gt;matchId&lt;br/&gt;score&lt;br/&gt;status&lt;br/&gt;matchedAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="780" y="410" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-conv" value="&lt;b&gt;Conversation&lt;/b&gt;&lt;br/&gt;conversationId&lt;br/&gt;matchId&lt;br/&gt;lastMessageAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="170" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-msg" value="&lt;b&gt;Message&lt;/b&gt;&lt;br/&gt;messageId&lt;br/&gt;senderId&lt;br/&gt;body&lt;br/&gt;sentAt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="410" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-viewing" value="&lt;b&gt;ViewingRequest&lt;/b&gt;&lt;br/&gt;requestId&lt;br/&gt;listingId&lt;br/&gt;status&lt;br/&gt;scheduledFor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#111827;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="290" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e1" value="1 to 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-user" target="dm-profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e2" value="host creates" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-user" target="dm-listing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e3" value="1 to many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-listing" target="dm-media">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e4" value="generated from" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-swipe" target="dm-match">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e5" value="opens" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-match" target="dm-conv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e6" value="contains many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-conv" target="dm-msg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-e7" value="can lead to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#64748B;strokeWidth=2;fontSize=13;" edge="1" parent="1" source="dm-match" target="dm-viewing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sequence" name="05 Key User Journey">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kj-title" value="Homie Key User Journey" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="40" y="24" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-subtitle" value="Production sequence for onboarding a seeker, generating recommendations, creating a match, and starting a conversation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=15;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="930" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-1" value="&lt;b&gt;Mobile App&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;fontColor=#0F172A;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-2" value="&lt;b&gt;API Gateway&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#0F172A;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-3" value="&lt;b&gt;Auth Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;fontColor=#0F172A;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-4" value="&lt;b&gt;Profile Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#0F172A;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="800" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-5" value="&lt;b&gt;Recommendation Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#0F172A;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="130" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-6" value="&lt;b&gt;Matching Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;fontColor=#0F172A;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-l1" value="" style="shape=line;strokeColor=#94A3B8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="1" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-l2" value="" style="shape=line;strokeColor=#94A3B8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="210" width="1" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-l3" value="" style="shape=line;strokeColor=#94A3B8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="210" width="1" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-l4" value="" style="shape=line;strokeColor=#94A3B8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="210" width="1" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-l5" value="" style="shape=line;strokeColor=#94A3B8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="210" width="1" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-l6" value="" style="shape=line;strokeColor=#94A3B8;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="210" width="1" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="kj-e1" value="Sign in / create account" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="kj-1" target="kj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="250" as="sourcePoint" />
+            <mxPoint x="315" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e2" value="Authenticate and issue session" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="kj-2" target="kj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="320" as="sourcePoint" />
+            <mxPoint x="555" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e3" value="Submit preferences and budget" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="kj-2" target="kj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="390" as="sourcePoint" />
+            <mxPoint x="795" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e4" value="Request ranked candidate set" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="kj-2" target="kj-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="470" as="sourcePoint" />
+            <mxPoint x="1035" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e5" value="Return recommended rooms and profiles" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=2;fontSize=14;dashed=1;" edge="1" parent="1" source="kj-5" target="kj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="540" as="sourcePoint" />
+            <mxPoint x="235" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e6" value="Like listing / candidate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="kj-1" target="kj-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="620" as="sourcePoint" />
+            <mxPoint x="1285" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e7" value="Create match when mutual criteria are satisfied" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="kj-6" target="kj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285" y="700" as="sourcePoint" />
+            <mxPoint x="475" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kj-e8" value="Open conversation and refresh match list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=2;fontSize=14;dashed=1;" edge="1" parent="1" source="kj-2" target="kj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="750" as="sourcePoint" />
+            <mxPoint x="235" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

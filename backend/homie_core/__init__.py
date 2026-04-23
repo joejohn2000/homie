@@ -1,0 +1,1 @@
+# Homie Core Django Project

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary: #FF5A36;
+  --primary-hover: #E04321;
+  --accent: #375343;
+  --warning: #F4C27F;
+  --bg-main: #F4F0EA;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #EAE3D9;
+  --text-primary: #0A2818;
+  --text-secondary: #5C6E64;
+  --border-light: #E0D9CD;
+  --border-dark: #0A2818;
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --transition-smooth: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+body {
+  background-color: var(--bg-main);
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(255, 90, 54, 0.04), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(55, 83, 67, 0.04), transparent 25%);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: 'Instrument Serif', serif;
+  letter-spacing: 0;
+}
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(10, 40, 24, 0.04);
+}
+
+.card-shadow {
+  box-shadow: 0 12px 40px -12px rgba(10, 40, 24, 0.08), 
+              0 4px 12px -4px rgba(10, 40, 24, 0.04);
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.page-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.page-heading h1 {
+  max-width: 720px;
+  font-size: 3.5rem;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+  color: var(--text-primary);
+}
+
+.eyebrow {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Base button reset for custom buttons */
+button {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Inputs */
+input, textarea {
+  transition: var(--transition-smooth);
+}
+input:focus, textarea:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 4px rgba(255, 90, 54, 0.1) !important;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.fade-in {
+  animation: fadeInUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.scale-in {
+  animation: scaleIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.2s; opacity: 0; }
+.stagger-3 { animation-delay: 0.3s; opacity: 0; }
+.stagger-4 { animation-delay: 0.4s; opacity: 0; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .page-heading h1 {
+    font-size: 2.5rem;
+  }
+}
