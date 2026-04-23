@@ -1,0 +1,16 @@
+{
+  "name": "homie",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python3 backend/manage.py runserver 127.0.0.1:8000",
+    "migrate:backend": "python3 backend/manage.py migrate --noinput",
+    "seed:backend": "python3 backend/manage.py seed_homie --noinput",
+    "test:backend": "python3 backend/manage.py test apps",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview"
+  }
+}
